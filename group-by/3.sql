@@ -7,6 +7,6 @@
 
 SELECT maker, COUNt (model) model
 FROM Product
-where type = 'pc'
-group by maker
-having count (model) >= 3
+WHERE type = 'pc'
+GROUP BY maker
+HAVING count (model) >= 3
