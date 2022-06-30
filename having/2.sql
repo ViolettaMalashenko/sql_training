@@ -7,5 +7,5 @@
 
 Select speed, AVG (price)
 From PC
-Group by speed
+Group BY speed
 Having speed > 600

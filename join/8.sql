@@ -14,4 +14,4 @@ UNION
 SELECT ship
 FROM outcomes as o
 JOIN classes as c
-on o.ship = c.class
+ON o.ship = c.class

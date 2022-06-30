@@ -7,5 +7,5 @@
 
 SELECT DISTINCT maker
 FROM Product
-WHERE type = 'PC' And maker not
-in (SELECT maker FROM Product WHERE type = 'Laptop')
+WHERE type = 'PC' AND maker NOT
+IN (SELECT maker FROM Product WHERE type = 'Laptop')
