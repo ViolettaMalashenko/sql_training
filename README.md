@@ -1,0 +1,1 @@
+This repository contains a bunch of SQL tasks from https://www.sql-ex.ru/ with queries resolutions
